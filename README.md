@@ -14,8 +14,7 @@
 # Running
 
 1. Source setup file
-
-    . [install_prefix]/share/citysim/setup.sh
+    source /usr/local/share/citysim/setup.sh
 
 1. Open world
 
