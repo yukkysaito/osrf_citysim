@@ -52,3 +52,10 @@ add_subdirectory(models)
 add_subdirectory(worlds)
 add_subdirectory(media)
 endif()
+
+# Warn : Running tests with colcon requires test targets.
+# However, actual tests are not implemented
+
+add_custom_target(tests
+  COMMAND echo "Running tests with colcon requires test targets. However, actual tests are not implemented"
+)
